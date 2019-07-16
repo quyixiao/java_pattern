@@ -111,6 +111,8 @@ public class Doc_2019_07_14 {
     // 的对象，比如向数据库或者搜索引擎查询对象，http://www.yahoo.com就是一个合法的URL
     // URL 对象提供了一个叫做openConection()的工厂方法，这个工厂方法返还一个URLConnection对象，而URLConnection对象则代表一个与远程对象的
     // 连接，URLConnection是所有代表应用系统是一个url的连接对象的超类，使用URLConnection对象针对一个URL进行读写操作
+    // 为了说明URL作为一个工厂类，而URLConnection作为一个抽象产品类的使用，下面提供一个简单的例子
+    // 为了说明URL作为一个工厂类，而URLConnection作为一个抽象产品类的使用，下面提供一个简单的例子，如下
     //
 
 
