@@ -1,4 +1,4 @@
-package com.pattern;
+package com.pattern.number7;
 
 public class Doc_2019_07_11 {
     // 在很多的情况下，缺乏经验的 java 设计师之所以选择继承关系描述两个类之间的关系，是因为对继承关系不理解不够造成的，而要正确地使用

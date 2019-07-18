@@ -1,4 +1,4 @@
-package com.pattern;
+package com.pattern.number7;
 
 public class Doc_2019_07_08 {
     // 如果有一组算法，那么就将每一组算法封装起来，使得它们可以互换

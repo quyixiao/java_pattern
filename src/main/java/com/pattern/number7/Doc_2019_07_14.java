@@ -1,4 +1,4 @@
-package com.pattern;
+package com.pattern.number7;
 
 public class Doc_2019_07_14 {
 

@@ -1,4 +1,4 @@
-package com.pattern;
+package com.pattern.number7;
 
 public class Doc_2019_07_10 {
     // 这个设计原则有另一个更加简单的表述，要尽量的使用合成聚合，尽量不要使用继承
