@@ -6,6 +6,17 @@ public class KeyInfo {
     private int nextKey ;
     private int poolSize ;
 
+    private String keyName;
+
+
+    public KeyInfo(int poolSize,String keyName){
+        this.poolSize = poolSize;
+        this.keyName = keyName;
+
+        retrieveFromDB();
+    }
+
+
     public KeyInfo(int poolSize){
         this.poolSize = poolSize;
 
@@ -26,8 +37,6 @@ public class KeyInfo {
             retrieveFromDB();
         }
         return nextKey ++;
-
-
     }
     private void retrieveFromDB(){
         String sql1 = "update keyTable set keyValue " + poolSize + " where keyName= 'PO_NUMBER'";
